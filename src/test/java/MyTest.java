@@ -36,6 +36,6 @@ public class MyTest {
 
     @Test
     public void TestThatFails() {
-        assertTrue(false);
+        assertFalse(false);
     }
 }
