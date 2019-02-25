@@ -33,4 +33,9 @@ public class MyTest {
     public void VerifyMethod5() {
         assertTrue(true);
     }
+
+    @Test
+    public void TestThatFails() {
+        assertTrue(false);
+    }
 }
